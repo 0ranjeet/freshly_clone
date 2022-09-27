@@ -1,0 +1,51 @@
+@media screen and (max-width:1300px) {
+    .con{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .left {
+        display: none;
+    }
+    .middle{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:550px) {
+    .nav{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle{
+        overflow: hidden;
+    }
+    .middle a{
+        padding: 0px 5px;
+    }
+    .middle a:nth-child(1){
+        margin-left: 100px;
+    }
+    .h1{
+        font-size: 1.2em;
+    }
+    .b1 > p{
+        font-size: 0.9em;
+    }
+    #star {
+        overflow: hidden;
+    }
+    .box2{
+        margin-left: -57px;
+    }
+    h1{
+        font-size: 1.1em;
+    }
+    #continue{
+        width: 72%;
+    }
+    .layout, .lem{
+        text-align: center;
+  margin-left: 41px;
+    }
+}

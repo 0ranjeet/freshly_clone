@@ -1,0 +1,132 @@
+
+@media screen and (max-width:1090Px){
+    #start #container{
+        width: 100%;
+    }
+    nav .left img{
+        margin-top: -251px;
+        vertical-align: top;
+    }
+    nav #nav-menu{
+        flex-direction: column;
+        margin-left: 100px;
+        margin-top: 100px;
+        /* background-color: white; */
+    }
+    nav #nav-menu a{
+        padding: 20px;
+        font-size: 1.5em;
+    }
+    nav #nav-menu .middle,nav #nav-menu .right{
+        flex-direction: column;
+        display: flex;
+    }
+    nav #nav-menu .right .over{
+        width: 100px;
+        padding: 5px 10px;
+        /* background: none; */
+        /* padding: 10px; */
+        /* color: black; */
+    }
+    .v-hidden{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+}
+@media screen and (max-width:750px){
+    nav{
+        width: 100%;
+    }
+    nav .left img{
+        margin-top: -271px;
+    }
+}
+
+@media screen and (max-width:452px){
+   
+    header{
+        display: none;
+    }
+    nav .left img{
+        margin-top: -229px;
+    }
+    #common{
+        font-size: 1.5em;
+    }
+    .content >h1{
+        font-size: 1.5em;
+    }
+    .box1{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .learnmore{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .inside h1{
+        font-size: 1em;
+        margin: 30px 0px;
+    }
+    .inside2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .inside1>img{
+        width: 100px;
+    }
+    .container1, .container2, .container, .layout{
+        width: 95%;
+        margin: auto;
+        /* background-color: red; */
+    }
+    #widthchange>h2{
+        font-size: 0.9em;
+    }
+    .content >h1{
+        width: 40%;
+    }
+    .container2 {
+        padding: 0px;
+    }
+    .box{
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+    }
+    select{
+        margin-left: 0px;
+    }
+    nav #nav-menu a{
+        margin-left: -176px;
+        font-size: 0.9em;
+    }
+    nav #nav-menu{
+        margin-left: 10%;
+        margin-top: 89px;
+    }
+    .a_question p{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:150px){
+button{
+    width: 80%;
+    padding: 10px;
+}
+h1{
+    font-size: 1.2em;
+}
+.a_answer p{
+    margin-top: 96px;
+}
+}
+
+/* @media screen and (max-width:300px){
+    nav{
+        width: 100%;
+        margin: auto;
+    }
+} */
